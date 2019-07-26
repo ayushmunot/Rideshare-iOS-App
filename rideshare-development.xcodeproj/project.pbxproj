@@ -3,25 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332D17F722DCDEA700766722 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D17F622DCDEA700766722 /* GradientView.swift */; };
+		332D17F922DCF4C000766722 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D17F822DCF4C000766722 /* RoundImageView.swift */; };
+		332D17FB22DCF6D300766722 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D17FA22DCF6D300766722 /* RoundedShadowView.swift */; };
+		332D17FD22DD01E500766722 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332D17FC22DD01E500766722 /* CircleView.swift */; };
 		3352E77322C1451E00C863B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3352E77222C1451E00C863B2 /* AppDelegate.swift */; };
-		3352E77522C1451E00C863B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3352E77422C1451E00C863B2 /* ViewController.swift */; };
+		3352E77522C1451E00C863B2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3352E77422C1451E00C863B2 /* HomeVC.swift */; };
 		3352E77822C1451E00C863B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3352E77622C1451E00C863B2 /* Main.storyboard */; };
 		3352E77A22C1451F00C863B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3352E77922C1451F00C863B2 /* Assets.xcassets */; };
 		3352E77D22C1451F00C863B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3352E77B22C1451F00C863B2 /* LaunchScreen.storyboard */; };
+		336C844722E247CB005AC16B /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336C844622E247CB005AC16B /* RoundedShadowButton.swift */; };
+		33C144FC22EB6EAF0084A0F2 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C144FB22EB6EAF0084A0F2 /* LeftSidePanelVC.swift */; };
+		33C144FE22EB6F7E0084A0F2 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C144FD22EB6F7E0084A0F2 /* ContainerVC.swift */; };
+		33C1450122EB78880084A0F2 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C1450022EB78880084A0F2 /* CenterVCDelegate.swift */; };
+		682DF684DF683ADB787C0ECE /* Pods_rideshare_development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116E88C0D1A6E9B09AE6E9BC /* Pods_rideshare_development.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116E88C0D1A6E9B09AE6E9BC /* Pods_rideshare_development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rideshare_development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		332D17F622DCDEA700766722 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		332D17F822DCF4C000766722 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		332D17FA22DCF6D300766722 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		332D17FC22DD01E500766722 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		3352E76F22C1451E00C863B2 /* rideshare-development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rideshare-development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3352E77222C1451E00C863B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3352E77422C1451E00C863B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3352E77422C1451E00C863B2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		3352E77722C1451E00C863B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3352E77922C1451F00C863B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3352E77C22C1451F00C863B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3352E77E22C1451F00C863B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336C844622E247CB005AC16B /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		33C144FB22EB6EAF0084A0F2 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		33C144FD22EB6F7E0084A0F2 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		33C1450022EB78880084A0F2 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		BBE8440373BECBBC62B4939C /* Pods-rideshare-development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rideshare-development.debug.xcconfig"; path = "Target Support Files/Pods-rideshare-development/Pods-rideshare-development.debug.xcconfig"; sourceTree = "<group>"; };
+		CC17EB511EC0D2480B634607 /* Pods-rideshare-development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rideshare-development.release.xcconfig"; path = "Target Support Files/Pods-rideshare-development/Pods-rideshare-development.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682DF684DF683ADB787C0ECE /* Pods_rideshare_development.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136AFDBCBBE506E4B8E58E93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				116E88C0D1A6E9B09AE6E9BC /* Pods_rideshare_development.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		332D17F322DCDE4E00766722 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3352E77422C1451E00C863B2 /* HomeVC.swift */,
+				33C144FB22EB6EAF0084A0F2 /* LeftSidePanelVC.swift */,
+				33C144FD22EB6F7E0084A0F2 /* ContainerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		332D17F422DCDE6200766722 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				332D17F622DCDEA700766722 /* GradientView.swift */,
+				332D17F822DCF4C000766722 /* RoundImageView.swift */,
+				332D17FA22DCF6D300766722 /* RoundedShadowView.swift */,
+				332D17FC22DD01E500766722 /* CircleView.swift */,
+				336C844622E247CB005AC16B /* RoundedShadowButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		332D17F522DCDE6800766722 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		3352E76622C1451E00C863B2 = {
 			isa = PBXGroup;
 			children = (
 				3352E77122C1451E00C863B2 /* rideshare-development */,
 				3352E77022C1451E00C863B2 /* Products */,
+				E0B605493CDD54F688D7F8B5 /* Pods */,
+				136AFDBCBBE506E4B8E58E93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +114,34 @@
 		3352E77122C1451E00C863B2 /* rideshare-development */ = {
 			isa = PBXGroup;
 			children = (
+				33C144FF22EB77AF0084A0F2 /* Protocols */,
+				332D17F522DCDE6800766722 /* Model */,
+				332D17F422DCDE6200766722 /* View */,
+				332D17F322DCDE4E00766722 /* Controller */,
 				3352E77222C1451E00C863B2 /* AppDelegate.swift */,
-				3352E77422C1451E00C863B2 /* ViewController.swift */,
 				3352E77622C1451E00C863B2 /* Main.storyboard */,
 				3352E77922C1451F00C863B2 /* Assets.xcassets */,
 				3352E77B22C1451F00C863B2 /* LaunchScreen.storyboard */,
 				3352E77E22C1451F00C863B2 /* Info.plist */,
 			);
 			path = "rideshare-development";
+			sourceTree = "<group>";
+		};
+		33C144FF22EB77AF0084A0F2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				33C1450022EB78880084A0F2 /* CenterVCDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E0B605493CDD54F688D7F8B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBE8440373BECBBC62B4939C /* Pods-rideshare-development.debug.xcconfig */,
+				CC17EB511EC0D2480B634607 /* Pods-rideshare-development.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3352E78122C1451F00C863B2 /* Build configuration list for PBXNativeTarget "rideshare-development" */;
 			buildPhases = (
+				8D286B9AD3A83601168F95F7 /* [CP] Check Pods Manifest.lock */,
 				3352E76B22C1451E00C863B2 /* Sources */,
 				3352E76C22C1451E00C863B2 /* Frameworks */,
 				3352E76D22C1451E00C863B2 /* Resources */,
+				E8F428718B89F55E7329F7F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +212,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D286B9AD3A83601168F95F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rideshare-development-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F428718B89F55E7329F7F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rideshare-development/Pods-rideshare-development-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rideshare-development/Pods-rideshare-development-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rideshare-development/Pods-rideshare-development-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3352E76B22C1451E00C863B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3352E77522C1451E00C863B2 /* ViewController.swift in Sources */,
+				33C1450122EB78880084A0F2 /* CenterVCDelegate.swift in Sources */,
+				332D17FD22DD01E500766722 /* CircleView.swift in Sources */,
+				33C144FC22EB6EAF0084A0F2 /* LeftSidePanelVC.swift in Sources */,
+				3352E77522C1451E00C863B2 /* HomeVC.swift in Sources */,
+				33C144FE22EB6F7E0084A0F2 /* ContainerVC.swift in Sources */,
+				332D17F922DCF4C000766722 /* RoundImageView.swift in Sources */,
+				332D17FB22DCF6D300766722 /* RoundedShadowView.swift in Sources */,
+				336C844722E247CB005AC16B /* RoundedShadowButton.swift in Sources */,
 				3352E77322C1451E00C863B2 /* AppDelegate.swift in Sources */,
+				332D17F722DCDEA700766722 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +412,7 @@
 		};
 		3352E78222C1451F00C863B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE8440373BECBBC62B4939C /* Pods-rideshare-development.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +431,7 @@
 		};
 		3352E78322C1451F00C863B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC17EB511EC0D2480B634607 /* Pods-rideshare-development.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
