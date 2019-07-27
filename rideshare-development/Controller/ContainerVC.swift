@@ -42,12 +42,12 @@ extension ContainerVC: CenterVCDelegate {
         }
         animateLeftPanel(shouldExapand: notAlreadyExpanded)
     }
-    func addLeftPanelViewController() {
-        <#code#>
-    }
-    func animateLeftPanel(shouldExapand: Bool) {
-        <#code#>
-    }
+//    func addLeftPanelViewController() {
+//        <#code#>
+//    }
+//    func animateLeftPanel(shouldExapand: Bool) {
+//        <#code#>
+//    }
 }
 private extension UIStoryboard {
     class func mainStoryboard()  -> UIStoryboard {
