@@ -1,4 +1,4 @@
-#Rideshare-iOS-App
+# Rideshare-iOS-App
 <h1 align="center">
   <br>
   <img src="https://github.com/ayushmunot/Rideshare-iOS-App/blob/master/rideshare-development/Assets.xcassets/Icon-App-83.5x83.5.imageset/Icon-App-83.5x83.5%402x.png" alt="Move On" width="160">
