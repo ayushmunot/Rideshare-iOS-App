@@ -1,0 +1,6 @@
+framework module Pods_rideshare_development {
+  umbrella header "Pods-rideshare-development-umbrella.h"
+
+  export *
+  module * { export * }
+}
